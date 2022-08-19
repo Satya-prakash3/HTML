@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio-data</title>
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height: auto;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(96, 217, 221);
+        }
+        .cont{
+            width: 90%;
+            height: auto;
+            border: 4px solid brown;
+            border-radius: 0px 60px 0px 0px;
+        }
+        
+        #hed{
+            font-size: 40px;
+            width: 100%;
+            color: rgb(0, 255, 0);
+            font-weight: 600;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: normal;
+            text-align: center;
+        }
+        table{
+            width: 100%;
+            margin: 40px;
+        }
+        .branchhed{
+            font-size: 30px;
+            color: rgb(233, 0, 0);
+            font-weight: 600;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: oblique;
+            padding-left: 50px;
+        }
+        .content{
+            font-size: 30px;
+            font-weight: 500;
+            font-style: normal;
+            padding-left: 70px;
+        }
+        fieldset{
+            
+            border: 4px solid rgb(255, 0, 221);
+            border-radius: 30px;
+            margin: 30px;
+            
+        }
+        legend{
+            color: rgb(45, 10, 247);
+            font-size: 35px;
+            font-weight: 600;
+            text-align: center;
+        }
+        .image{
+            position: absolute;
+            background-position: right-top;
+            width: 250px;
+            height: 20px;
+            right: 30px;
+            top:20px;
+            background-image: url(abt.jpg) center;
+            background-size: cover;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="cont">
+        <div class="image"></div>
+        <table  cellspacing="20px">
+            <tr>
+                <td colspan="2" id="hed">Bio-Data<br>_____________________<br></td>
+            </tr>
+            <tr>
+            <td colspan="2" class="branchhed">Personal Details :-</td></tr>
+            <tr class="content">
+                <td>Name</td>
+                <td>:-Satyaprakash sethy</td>
+            </tr>
+            <tr class="content">
+                <td>Qualification</td>
+                <td>:-I am a student at SUIIT<br>&nbsp;&nbsp;(10th=78%)<br>&nbsp;&nbsp;(12th=78.5%)</td>
+            </tr>
+            <tr class="content">
+                <td>Date Of Birth</td>
+                <td>:-09/04/2002</td>
+            </tr>
+            <tr class="content">
+                <td>Hight</td>
+                <td>:-5.7</td>
+            </tr>
+            <tr class="content">
+                <td>Color</td>
+                <td>:-Fair</td>
+            </tr>
+            <tr class="content">
+                <td>Blood Group</td>
+                <td>:-B+</td>
+            </tr>
+            <tr class="content">
+                <td>Hobbies</td>
+                <td>:-Playing chess</td>
+            </tr>
+        </table>
+        <fieldset>
+            <legend>&nbsp;&nbsp;--: Family detail :--</legend>
+            <table cellspacing="20px">
+                <tr class="content">
+                    <td>Father's Name</td>
+                    <td>:-Bhimasen sethy</td>
+                </tr>
+                <tr class="content">
+                    <td>Mother's Name</td>
+                    <td>:-Smita sethy</td>
+                </tr>
+                <tr class="content">
+                    <td>Brother"s's Name</td>
+                    <td>:-Satyaswarup sethy</td>
+                </tr>
+            </table>
+        </fieldset>
+        <table>
+            <tr>
+                <td colspan="2" class="branchhed">Contact Details:--</td>
+            </tr>
+            <tr class="content">
+                <td>Address</td>
+                <td class="value">:-AT:-Rajakula kateni,P.O.-Malapura</td>
+            </tr>
+            <tr class="content">
+                <td>Mobile no</td>
+                <td class="value"> :-91)8952417885</td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
